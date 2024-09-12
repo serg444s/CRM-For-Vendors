@@ -7,10 +7,18 @@ export default function Home() {
       <main className={css.main}>
         <h2 className="text-xl">Home page</h2>
         <div>
-          <Label status={Status.Active}>Active</Label>
-          <Label status={Status.Pending}>Pending</Label>
-          <Label status={Status.Suspended}>Suspended</Label>
-          <Label status={Status.NotActive}>Not Active</Label>
+          <Label status={Status.Active} disabled={false}>
+            Active
+          </Label>
+          <Label status={Status.Pending} disabled={false}>
+            Pending
+          </Label>
+          <Label status={Status.Suspended} disabled={false}>
+            Suspended
+          </Label>
+          <Label status={Status.NotActive} disabled={true}>
+            Not Active
+          </Label>
         </div>
       </main>
       <footer></footer>
