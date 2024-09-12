@@ -1,4 +1,5 @@
-import Label, { Status } from './components/Label';
+import AddCompanyButton from './components/AddCompanyButton/AddCompanyButton';
+import Label, { Status } from './components/Label/Label';
 import css from './page.module.css';
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
           </Label>
         </div>
       </main>
+      <AddCompanyButton />
       <footer></footer>
     </div>
   );
