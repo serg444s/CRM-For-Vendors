@@ -12,8 +12,22 @@ interface LabelProps {
   status: Status;
 }
 
-const Label = ({ children }: LabelProps) => {
-  return <span>{children}</span>;
+const Label = ({ children, status }: LabelProps) => {
+  return (
+    <div
+      className={`inline-flex items-center py-1 px-3 rounded-xl text-sm font-medium 
+    ${
+      (status === Status.Active && 'bg-active text-green-700') ||
+      (status === Status.NotActive && 'bg-notactive text-red-700') ||
+      (status === Status.Pending && 'bg-pending text-orange-700') ||
+      (status === Status.Suspended && 'bg-suspended text-blue-700')
+    } 
+    `}
+    >
+      <div className="w-1 h-1 mr-2 rounded-full bg-current"></div>
+      {children}
+    </div>
+  );
 };
 
 export default Label;

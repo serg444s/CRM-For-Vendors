@@ -8,8 +8,8 @@ export default function Home() {
         <h2 className="text-xl">Home page</h2>
         <div>
           <Label status={Status.Active}>Active</Label>
-          <Label status={Status.Pending}>Active</Label>
-          <Label status={Status.Suspended}>Active</Label>
+          <Label status={Status.Pending}>Pending</Label>
+          <Label status={Status.Suspended}>Suspended</Label>
           <Label status={Status.NotActive}>Not Active</Label>
         </div>
       </main>
