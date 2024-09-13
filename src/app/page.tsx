@@ -1,5 +1,8 @@
 import AddCompanyButton from './components/AddCompanyButton/AddCompanyButton';
+import ClientComponent from './components/ClientComponent/ClientComponent';
 import Label, { Status } from './components/Label/Label';
+import ServerComponent from './components/ServerComponent/ServerComponent';
+import ServerComponentCopy from './components/ServerComponent/ServerComponentCopy';
 import css from './page.module.css';
 
 export default function Home() {
@@ -23,6 +26,10 @@ export default function Home() {
         </div>
       </main>
       <AddCompanyButton />
+      <ServerComponent />
+      <ClientComponent>
+        <ServerComponentCopy />
+      </ClientComponent>
       <footer></footer>
     </div>
   );
