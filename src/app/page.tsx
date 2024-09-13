@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={css.page}>
       <main className={css.main}>
-        <h2 className="text-xl">Home page</h2>
+        <h2 className="text-xl">Home Page</h2>
         <div>
           <Label status={Status.Active} disabled={false}>
             Active
