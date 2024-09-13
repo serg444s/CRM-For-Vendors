@@ -16,8 +16,8 @@ export const Input = ({ label, id, ...rest }: InputFieldProps) => {
         </label>
       )}
       <Field
-        {...rest}
         id={id}
+        {...rest}
         className="p-3 h-11 text-sm rounded border border-gray-300 shadow"
       />
     </div>

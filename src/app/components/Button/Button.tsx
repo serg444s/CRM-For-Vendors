@@ -17,6 +17,6 @@ export default function Button({ disabled, ...rest }: ButtonProps) {
         !disabled && 'hover:bg-gray-800 active:bg-gray-950',
         disabled && 'text-zinc-100',
       )}
-    />
+    ></button>
   );
 }
