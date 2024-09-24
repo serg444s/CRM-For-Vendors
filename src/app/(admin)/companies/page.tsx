@@ -2,10 +2,10 @@ import React from 'react';
 import Header from './components/header';
 import Toolbar from './components/toolbar';
 import SearchInput from './components/search-input';
-import AddCompanyButton from '../components/AddCompanyButton/AddCompanyButton';
 import CompanyTable from './components/company-table';
 import CompanyRow from './components/company-row';
-import { Status } from '../components/Label/Label';
+import AddCompanyButton from '@/app/components/AddCompanyButton/AddCompanyButton';
+import { Status } from '@/app/components/Label/Label';
 
 const Page = () => {
   return (
