@@ -4,8 +4,8 @@ import Toolbar from './components/toolbar';
 import SearchInput from './components/search-input';
 import CompanyTable from './components/company-table';
 import CompanyRow from './components/company-row';
-import AddCompanyButton from '@/app/components/AddCompanyButton/AddCompanyButton';
-import { Status } from '@/app/components/Label/Label';
+import AddCompanyButton from '@/app/components/AddCompanyButton';
+import { Status } from '@/app/components/Label';
 
 const Page = () => {
   return (

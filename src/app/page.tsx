@@ -1,8 +1,8 @@
-import AddCompanyButton from './components/AddCompanyButton/AddCompanyButton';
-import ClientComponent from './components/ClientComponent/ClientComponent';
-import Label, { Status } from './components/Label/Label';
-import ServerComponent from './components/ServerComponent/ServerComponent';
-import ServerComponentCopy from './components/ServerComponent/ServerComponentCopy';
+import AddCompanyButton from './components/AddCompanyButton';
+import ClientComponent from './components/ClientComponent';
+import Label, { Status } from './components/Label';
+import ServerComponent from './components/ServerComponent';
+import ServerComponentCopy from './components/ServerComponentCopy';
 import css from './page.module.css';
 
 export default function Home() {

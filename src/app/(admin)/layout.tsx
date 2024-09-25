@@ -1,4 +1,4 @@
-import Sidebar from '@/app/components/Sidebar/Sidebar';
+import Sidebar from '@/app/components/Sidebar';
 import React, { Children } from 'react';
 
 export interface layoutProps {
