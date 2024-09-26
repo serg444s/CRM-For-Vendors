@@ -1,11 +1,11 @@
 import MagicButton from '@/app/components/magicButton';
 import React from 'react';
+import Header from '../companies/components/header';
 
 const page = () => {
   return (
     <div>
-      <h2>Dashboard Page</h2>
-      <MagicButton />
+      <Header>Dashboard</Header>
     </div>
   );
 };
